@@ -35,6 +35,7 @@ android {
 }
 
 dependencies {
+    implementation(Config.Modules.library)
     implementation(Config.Deps.kotlinStdLib)
     implementation(Config.Deps.materialDesignComponents)
 }

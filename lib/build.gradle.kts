@@ -34,6 +34,7 @@ android {
 }
 
 dependencies {
+    api(Config.Deps.playServicesLocation)
     implementation(Config.Deps.kotlinStdLib)
     implementation(Config.Deps.materialDesignComponents)
 }

@@ -35,7 +35,8 @@ android {
 }
 
 dependencies {
-    implementation(Config.Modules.library)
+    implementation(project(Config.Modules.lib))
     implementation(Config.Deps.kotlinStdLib)
     implementation(Config.Deps.materialDesignComponents)
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.2.0")
 }
